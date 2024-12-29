@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Dashboard Widgets */
+.dashboard-widget {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Goals List */
+.goal-item {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: white;
+    transition: transform 0.2s;
+}
+
+.goal-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Priority Tags */
+.priority-tag {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.priority-high {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.priority-medium {
+    background-color: #ffd93d;
+    color: black;
+}
+
+.priority-low {
+    background-color: #6bff6b;
+    color: black;
+}
+
+/* Status Badges */
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.status-pending {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.status-in-progress {
+    background-color: #4dabf7;
+    color: white;
+}
+
+.status-completed {
+    background-color: #51cf66;
+    color: white;
+}
+
+/* Forms */
+.form-control:focus {
+    border-color: #4dabf7;
+    box-shadow: 0 0 0 0.2rem rgba(77, 171, 247, 0.25);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #4dabf7;
+    border-color: #4dabf7;
+}
+
+.btn-primary:hover {
+    background-color: #339af0;
+    border-color: #339af0;
+}
+
+/* Progress Charts */
+.progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .card {
+        margin-bottom: 15px;
+    }
+}
